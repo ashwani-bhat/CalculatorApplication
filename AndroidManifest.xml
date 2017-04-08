@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ashwani.calculatorapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ashwani.calculatorapp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ashwani.calculatorapp.StandardCal"
+            android:label="@string/title_activity_standard_cal"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ashwani.calculatorapp.ScientificCal"
+            android:label="@string/title_activity_scientific_cal"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ashwani.calculatorapp.UnitCoverter"
+            android:label="@string/title_activity_unit_coverter"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ashwani.calculatorapp.UnitArea"
+            android:label="@string/title_activity_unit_area"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ashwani.calculatorapp.UnitLength"
+            android:label="@string/title_activity_unit_length"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ashwani.calculatorapp.UnitWeight"
+            android:label="@string/title_activity_unit_weight"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ashwani.calculatorapp.UnitTemperature"
+            android:label="@string/title_activity_unit_temperature"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ashwani.calculatorapp.History"
+            android:label="@string/title_activity_history"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
