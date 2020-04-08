@@ -2,7 +2,7 @@
 This calculator application has following functionalities:
 1) Calculations using Basic operators.
 2) Calculations using Scientific operators.
-3) Metric conversions e.g., Temperation, Weight, Area and Length conversions across various units .
+3) Metric conversions e.g., Temperature, Weight, Area and Length conversions across various units .
 
 ### The below shows the activity for calculations using basic operators.<br>
 <img src="https://cloud.githubusercontent.com/assets/16431244/24826585/19204a7a-1c57-11e7-9146-23c68fa1486a.png" width="350px" height="600px" ><br><br>
